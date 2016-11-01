@@ -1,0 +1,27 @@
+{
+  "name": "angular1-apollo-client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mkdirp dist && browserify src/index.js -o dist/angular1-apollo-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facupedrazzini/angular1-apollo-client.git"
+  },
+  "author": "Facundo Pedrazzini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facupedrazzini/angular1-apollo-client/issues"
+  },
+  "homepage": "https://github.com/facupedrazzini/angular1-apollo-client#readme",
+  "dependencies": {
+    "apollo-client": "^0.5.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "mkdirp": "^0.5.1"
+  }
+}
