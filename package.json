@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "mkdirp dist && browserify src/index.js -o dist/angular1-apollo-client.js"
+    "build": "rm -rf dist && mkdirp dist && browserify src/index.js -o dist/angular1-apollo-client.js"
   },
   "repository": {
     "type": "git",
